@@ -1,13 +1,13 @@
 cask "cliply" do
-  version "0.1.4"
-  sha256 "b654387fa8ff529b76752ff8de0edca06a672dabb56e1f0cc0219abf06c3221c"
+  version "0.1.5"
+  sha256 "d4765743c457038376371322e9f2d9a0d955b0d37f6780a774898179490581f5"
 
   url "https://github.com/rohitjavvadi/ClipLy/releases/download/v#{version}/ClipLy.dmg"
   name "ClipLy"
   desc "Lightweight macOS clipboard history app"
   homepage "https://github.com/rohitjavvadi/ClipLy"
 
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "ClipLy.app"
 
