@@ -1,6 +1,6 @@
 cask "cliply" do
-  version "0.1.5"
-  sha256 "d4765743c457038376371322e9f2d9a0d955b0d37f6780a774898179490581f5"
+  version "0.1.6"
+  sha256 "3f02f94b18ef87a1bc7c05e77b1cc0c98b876d3fb4a62359696e54ced1c231a4"
 
   url "https://github.com/rohitjavvadi/ClipLy/releases/download/v#{version}/ClipLy.dmg"
   name "ClipLy"
